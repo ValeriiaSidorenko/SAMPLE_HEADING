@@ -5,9 +5,21 @@
 	text-decoration: none;
 	color: @color-text;
 	padding: 10px;
+	font-family: Helvetica;
+	font-size: 14px;
 	
 	&-Brand {
-		font-size: 20px;
+		font-size: 18px;
 		font-weight: bold;
+	}
+
+	&-Link:hover {
+		border-left: 1px solid @border-color-header;
+		border-right: 1px solid @border-color-header;
+		box-sizing: border-box;
+		background-image: @background-header-hover;
+		padding: 14px 9px 14px 9px;
+		box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, .2);
+
 	}
 }

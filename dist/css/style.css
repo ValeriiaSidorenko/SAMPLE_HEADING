@@ -11,23 +11,27 @@
   background-image: linear-gradient(to bottom, #ffffff, #e8e8e8);
   border: 1px solid #e8e8e8;
   border-radius: 4px;
+  box-shadow: 0px 3px 6px -2px rgba(0, 0, 0, 0.75);
   display: flex;
 }
 .Text {
   text-decoration: none;
   color: #5e696d;
   padding: 10px;
+  font-family: Helvetica;
+  font-size: 14px;
 }
 .Text-Brand {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 .Text-Link:hover {
-  border: 1px solid #e8e8e8;
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
   box-sizing: border-box;
   background-image: linear-gradient(to bottom, #e8e8e8, #ffffff);
-  padding-top: 13px;
-  padding-bottom: 14px;
+  padding: 14px 9px 14px 9px;
+  box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 }
 .HeaderList {
   list-style-type: none;
