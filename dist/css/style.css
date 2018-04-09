@@ -1,14 +1,38 @@
 .Container {
   width: 960px;
-  margin-top: 0 auto;
+  margin: 0 auto;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .Header {
+  box-sizing: border-box;
   background-image: linear-gradient(to bottom, #ffffff, #e8e8e8);
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  display: flex;
 }
 .Text {
   text-decoration: none;
   color: #5e696d;
+  padding: 10px;
+}
+.Text-Brand {
+  font-size: 20px;
+  font-weight: bold;
+}
+.Text-Link:hover {
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  background-image: linear-gradient(to bottom, #e8e8e8, #ffffff);
+  padding-top: 13px;
+  padding-bottom: 14px;
+}
+.HeaderList {
+  list-style-type: none;
+  display: flex;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  box-sizing: border-box;
 }
