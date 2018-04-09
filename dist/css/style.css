@@ -75,7 +75,6 @@
   box-sizing: border-box;
 }
 .ButtonBlue {
-  width: 8%;
   background: #289eed;
   color: white;
   background-image: -webkit-linear-gradient(top, #289eed, #156ba1);
@@ -167,6 +166,23 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
   box-sizing: border-box;
   margin: 0;
+}
+.Phasellus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.Box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #e8e8e8;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  padding-top: 10px;
 }
