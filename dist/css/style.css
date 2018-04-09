@@ -185,4 +185,16 @@
   background-color: #f9f9f9;
   border-radius: 4px;
   padding-top: 10px;
+  margin-bottom: 25px;
+}
+.OurClients {
+  margin: 15px 0 20px 0;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  width: 100%;
+}
+.OurClients-Pic {
+  width: 13%;
+  height: 13%;
 }
