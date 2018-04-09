@@ -40,12 +40,14 @@
 }
 .Text-IconContent {
   font-size: 12px;
+  margin: 0px;
 }
 .Text-SampleHeading {
   font-size: 35px;
   font-family: Helvetica;
   font-weight: normal;
   margin: 0;
+  padding: 8px;
 }
 .Text-SampleHeading-Content {
   font-size: 18px;
@@ -73,6 +75,7 @@
   box-sizing: border-box;
 }
 .ButtonBlue {
+  width: 9%;
   background: #289eed;
   color: white;
   background-image: -webkit-linear-gradient(top, #289eed, #156ba1);
@@ -87,6 +90,7 @@
   -moz-box-shadow: 0px 2px 2px #666666;
   box-shadow: 0px 2px 2px #666666;
   padding: 10px 20px 10px 20px;
+  margin: 0 0 10px 10px;
 }
 .ButtonBlue:hover {
   background: #61bffa;
@@ -139,4 +143,25 @@
   height: 21%;
   width: 7%;
   padding: 10px;
+}
+.Line {
+  border: 1px solid #f4f4f4;
+  width: 960px;
+  margin: 20px 0;
+}
+.NonePic {
+  height: 100%;
+  width: 47%;
+  padding: 10px 20px 0 0;
+}
+.Subheading {
+  display: flex;
+  box-sizing: border-box;
+}
+.Subheading-Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 0;
 }
