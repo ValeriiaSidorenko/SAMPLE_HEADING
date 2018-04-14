@@ -5,10 +5,18 @@
 	padding: 100px 0 100px 0;
 	width: 960px;
 	height: 100%;
-	background-color: @background-SampleHeading;
+	background: linear-gradient(102deg, #ffffff, #a7a7a7, #627cb6);
+	background-size: 600% 600%;
+	animation: AnimationSampleHeading 6s ease infinite;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	box-sizing: border-box;
+}
+
+@keyframes AnimationSampleHeading { 
+	0%{background-position:0% 58%}
+	50%{background-position:100% 43%}
+	100%{background-position:0% 58%}
 }
